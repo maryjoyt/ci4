@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2024 at 04:21 PM
+-- Generation Time: Jun 22, 2024 at 01:43 AM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.1.25
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -63,13 +63,14 @@ CREATE TABLE `tbl_item` (
 --
 
 INSERT INTO `tbl_item` (`id`, `name`, `description`, `price`, `created_at`, `updated_at`) VALUES
-(1, 'apple', 'sweet apple', 49.75, '2024-06-09 19:25:24', '2024-06-09 19:25:24'),
-(2, 'orange', 'sweet orange', 59.5, '2024-06-10 17:23:28', '2024-06-10 17:23:28'),
-(3, 'pomelo', '           sweet pomelo', 85, '2024-06-19 12:37:42', '2024-06-19 12:37:42'),
-(4, 'banana', '            sweet banana', 12, '2024-06-19 12:38:16', '2024-06-19 12:38:16'),
-(6, 'grape', '          sweet grape  ', 50, '2024-06-19 12:39:31', '2024-06-19 12:39:31'),
-(7, 'fgrdyrtdhfhzdf', '            fdsfgdgfhfdgdgv', 32, '2024-06-19 14:02:12', '2024-06-19 14:02:12'),
-(8, 'dtydhgfch', '            drdsfgdhfg', 45, '2024-06-19 14:03:38', '2024-06-19 14:03:38');
+(1, 'Ergonomic Office Chair', 'A chair designed to provide comfort and support.', 49.75, '2024-06-09 19:25:24', '2024-06-09 19:25:24'),
+(2, 'Standing Desk', 'A desk that allows users to switch between sitting and standing positions.', 59.5, '2024-06-10 17:23:28', '2024-06-10 17:23:28'),
+(3, 'Wireless Keyboard and Mouse Combo', 'A set of wireless peripherals, including a keyboard and a mouse', 85, '2024-06-19 12:37:42', '2024-06-19 12:37:42'),
+(4, 'Desk Lamp with Adjustable Brightness', 'A lamp designed for desk use.', 12, '2024-06-19 12:38:16', '2024-06-19 12:38:16'),
+(6, 'All-in-One Printer', 'A multifunctional device that combines printing, scanning, copying, and faxing.', 50, '2024-06-19 12:39:31', '2024-06-19 12:39:31'),
+(7, 'Noise-Canceling Headphones', 'Headphones equipped with noise-canceling technology.', 32, '2024-06-19 14:02:12', '2024-06-19 14:02:12'),
+(8, 'File Organizer', 'A multi-compartment organizer for sorting and storing documents, files, and folders.', 45, '2024-06-19 14:03:38', '2024-06-19 14:03:38'),
+(12, 'Whiteboard with Markers', 'A dry-erase whiteboard used for writing and displaying notes.', 123, '2024-06-20 14:20:17', '2024-06-20 14:20:17');
 
 --
 -- Indexes for dumped tables
@@ -101,7 +102,7 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_item`
 --
 ALTER TABLE `tbl_item`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
